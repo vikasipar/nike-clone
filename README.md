@@ -4,7 +4,7 @@
 ### React-js and Tailwind CSS
 <br>
 
-![nike product page](https://github.com/vikasipar/nike-clone/assets/98696526/6ac86bdf-9544-42e4-97c8-25c45264ee65)
+![nike clone](https://github.com/vikasipar/nike-clone/assets/98696526/b66517df-b1f3-4069-a775-a8ef9d325e0f)
 
 
 <br>
