@@ -1,11 +1,10 @@
 import React from 'react';
 import Shoelist from './Shoelist';
-import { data } from '../data';
 
-function Mainleft() {
+function Mainleft({ product }) {
   return (
     <div className='w-3/5'>
-      <Shoelist data={data} />
+      <Shoelist product={product} />
     </div>
   )
 }

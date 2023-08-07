@@ -1,17 +1,21 @@
-import React, { useState } from 'react';
-import {data} from '../data';
+import React, { useEffect, useState } from 'react';
 
+function Shoelist({ product }) {
+    const [hero, setHero] = useState(product.images[0]);
 
-function Shoelist() {
-    const imgarr = data[0].images;
-    const [hero, setHero] = useState(imgarr[0]);
+    // used useEffect because the hero's state wasn't updating automatically it was showing previous hero image
+
+    useEffect(() => {
+      setHero(product.images[0])
+    },[product]);
+    
     function mouseHandler(e){
       setHero(e.target.src);
     }
   return (
     <div className='flex items-center'>
       <div>
-        {imgarr.map((image) => (
+        {product.images.map((image) => (
           <img src={image} alt="#" className='w-52 mb-3 rounded-lg cursor-pointer' onMouseOver={mouseHandler} />
         ))}
       </div>
