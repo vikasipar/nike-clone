@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="w-max md:w-auto">
       <Navbar />
       <Main product={heroProduct} />
       <Other

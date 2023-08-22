@@ -13,14 +13,14 @@ function Shoelist({ product }) {
       setHero(e.target.src);
     }
   return (
-    <div className='flex items-center'>
-      <div>
+    <div className='flex flex-col-reverse md:flex-row items-center content-center'>
+      <div className='flex w-fit md:w-auto md:flex-col mt-2 md:mt-auto'>
         {product.images.map((image) => (
-          <img src={image} alt="#" className='w-52 mb-3 rounded-lg cursor-pointer' onMouseOver={mouseHandler} />
+          <img src={image} alt="#" className='w-10 md:w-52 mb-3 rounded-lg cursor-pointer' onMouseOver={mouseHandler} />
         ))}
       </div>
-      <div className='mx-6'>
-        <img src={hero} alt="hero-img" className='w-11/12 rounded-lg'/>
+      <div className='ml-5 md:mx-6'>
+        <img src={hero} alt="hero-img" className='w-80 md:w-11/12 rounded-lg'/>
       </div>
     </div>
   )

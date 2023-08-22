@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div>
         {/* top nav */}
-        <div className="flex items-center px-24 justify-between py-2 bg-gray-100">
+        <div className="hidden md:flex items-center px-24 justify-between py-2 bg-gray-100">
             <div>
                 <img src="https://th.bing.com/th?id=OSK.ae82dd642125cef3def13af7e011d321&w=80&h=80&c=7&rs=1&qlt=80&o=6&dpr=1.3&pid=SANGAM" alt='jordan-logo' className='w-6 mix-blend-multiply cursor-pointer' />
             </div>
@@ -23,7 +23,7 @@ function Navbar() {
                 </div>
         </div>
         {/* bottom nav */}
-        <div className="flex items-center px-20 justify-between">
+        <div className="hidden md:flex items-center px-20 justify-between">
             <div>
             <img
                         src="https://th.bing.com/th?id=OSK.f4fada2f6a09f46ff7a39e3ea089bac4&w=240&h=145&o=6&dpr=1.3&pid=SANGAM" className='w-24' alt="nike-logo" />

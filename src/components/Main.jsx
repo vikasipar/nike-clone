@@ -4,7 +4,7 @@ import Mainright from './Mainright';
 
 function Main({ product }) {
   return (
-    <div className='mx-32 my-10 flex items-center gap-2'>
+    <div className='mx-1 md:mx-32 my-3 md:my-10 md:flex items-center md:gap-2'>
         <Mainleft product={product} />
         <Mainright product={product} />
     </div>
