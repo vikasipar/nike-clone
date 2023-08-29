@@ -2,6 +2,7 @@
 ## Nike Clone | Air Jordan Product Page 
 
 ### React-js and Tailwind CSS
+#### live demo: [click here](https://nike-clone-lime.vercel.app)
 <br>
 
 ![nike clone](https://github.com/vikasipar/nike-clone/assets/98696526/b66517df-b1f3-4069-a775-a8ef9d325e0f)
